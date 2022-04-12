@@ -1,0 +1,3 @@
+EXPLAIN
+SELECT * FROM users
+WHERE salary>10000;

@@ -1,0 +1,1 @@
+SELECT booking_date,tip,RANK() OVER(PARTITION BY booking_date ORDER BY bill) FROM bokings;
